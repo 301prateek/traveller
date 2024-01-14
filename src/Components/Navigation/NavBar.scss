@@ -1,0 +1,66 @@
+
+.navbar-container{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(81 79 79);
+    justify-content: space-between;
+    height: 80px;
+
+    .header{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-family: "Lemon", serif;
+        font-weight: 400;
+        font-style: normal;
+          
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .icon{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .navigation{
+        display: flex;
+        .navbar-list{
+            width: 300px;
+            display: flex;
+            color: white;
+            list-style: none;
+            align-items: center;
+            justify-content: space-between;
+
+            .list-item{
+                color: white;
+                margin-left: 10px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: "Lemon",serif;
+                }
+
+            }
+        }
+    }
+
+    .profile{
+        display: flex;
+        width: 80px;
+        cursor: pointer;
+
+        .menu-btn{
+            cursor: pointer;
+        }
+        .account-btn{
+            cursor: pointer;
+        }
+    }
+}
