@@ -3,6 +3,7 @@ import LuggageIcon from "@mui/icons-material/Luggage";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
+import SearchIcon from "@mui/icons-material/Search";
 
 const NavBar = () => {
   return (
@@ -15,6 +16,16 @@ const NavBar = () => {
           <LuggageIcon fontSize={"large"} />
         </div>
       </h1>
+      <div className="search-container">
+        <span className="option-one">Any Where</span>
+        <span className="option-seperation-line"></span>
+        <span>Any Week</span>
+        <span className="option-seperation-line"></span>
+        <span>Any Guests</span>
+        <span>
+          <SearchIcon />
+        </span>
+      </div>
       <nav className="navigation">
         <ul className="navbar-list">
           <li className="list-item">
